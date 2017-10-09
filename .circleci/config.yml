@@ -41,7 +41,7 @@ jobs:
           command: yarn ng test --sr --no-progress
       - deploy:
           command: |
-            sh script/publish.sh;
+            sh scripts/publish.sh;
 
 
 
